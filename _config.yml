@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Opalsec
+title: OpalSec
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   My Personal Blog
@@ -56,34 +56,25 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Jonathan Cheong"
   avatar : "/assets/images/thumb_Headshot.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Here to learn, and hopefully help."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jcheong-opalsec"
+    - label: "HackTheBox"
+      icon: "fab fa-fw fa-codepen"
+      url: "https://www.hackthebox.eu/profile/24057"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jcheong-opalsec"
+    - label: "HackTheBox"
+      icon: "fab fa-fw fa-codepen"
+      url: "https://www.hackthebox.eu/profile/24057"      
 
 defaults:
   # _posts
