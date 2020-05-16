@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Jonathan Cheong"
   avatar : "/assets/images/thumb_Headshot.jpg"
-  bio    : "Here to learn, and hopefully help."
+  bio    : "Experienced in Offensive and Defensive Cyber; here to share and document a few of the things I've learned along the way"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
