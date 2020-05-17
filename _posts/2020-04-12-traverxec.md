@@ -2,7 +2,6 @@
 title: "HackTheBox Walkthrough - Traverxec"
 categories:
   - Hackthebox
-date: page.date
 tags:
   - hackthebox
   - htb
