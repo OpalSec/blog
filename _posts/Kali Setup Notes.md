@@ -1,15 +1,13 @@
 ---
-title: "HackTheBox Walkthrough - Traverxec"
+title: "Basic Kali Setup Guide"
 overview: "Kali is a staple of any red team analyst or pentester, with a huge range of tools that will see you through nearly any engagement. Here are a few of the basic setup steps I use when building a new image."
 categories:
   - Red Team
 tags:
-  - hackthebox
-  - htb
+  - kali 
+  - red team
   - linux
-  - jtr
-  - gtfobins
-  - ssh
+  - pentest
 classes: wide
 ---
 
