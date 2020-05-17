@@ -1,22 +1,19 @@
 ---
-title: "HackTheBox Walkthrough - Traverxec"
+title: "Basic Kali Setup Guide"
 overview: "Kali is a staple of any red team analyst or pentester, with a huge range of tools that will see you through nearly any engagement. Here are a few of the basic setup steps I use when building a new image."
 categories:
-  - Hackthebox
+  - Red Team
 tags:
-  - hackthebox
-  - htb
+  - kali 
+  - red team
   - linux
-  - jtr
-  - gtfobins
-  - ssh
+  - pentest
 classes: wide
 ---
 
 ![Banner](https://opalsec.github.io/assets/images/KaliSetupNotes/KaliBanner.png)
 
 # Kali setup guide
-
 
 ## 1. Install vmware tools (Enable system time syncs, copy paste between guest & host, etc.)
 

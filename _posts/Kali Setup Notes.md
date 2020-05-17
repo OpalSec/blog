@@ -15,7 +15,6 @@ classes: wide
 
 # Kali setup guide
 
-
 ## 1. Install vmware tools (Enable system time syncs, copy paste between guest & host, etc.)
 
 #### We can achieve this by cloning and running the script from the below github repo:

