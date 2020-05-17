@@ -1,5 +1,6 @@
 ---
 title: "ATT&CK & DeTT&CT - Correlating Attack & Defence"
+overview: "Make ATT&CK actionable - The ATT&CK Navigator acts as a common frame-of-reference for both Defensive and Offensive datasets. DeTT&CT allows you to map your Defensive apertures against the ATT&CK Matrix, which can in turn be directly triaged against the Offensive TTPs Threat Actors relevant to your Organisation employ. "
 categories:
   - Threat Intel
 tags:

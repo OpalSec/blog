@@ -1,6 +1,19 @@
-# [**Home**](https://opalsec.github.io)
+---
+title: "HackTheBox Walkthrough - Traverxec"
+overview: "Kali is a staple of any red team analyst or pentester, with a huge range of tools that will see you through nearly any engagement. Here are a few of the basic setup steps I use when building a new image."
+categories:
+  - Hackthebox
+tags:
+  - hackthebox
+  - htb
+  - linux
+  - jtr
+  - gtfobins
+  - ssh
+classes: wide
+---
 
-![Banner](https://opalsec.github.io/KaliBanner.png)
+![Banner](https://opalsec.github.io/assets/images/KaliSetupNotes/KaliBanner.png)
 
 # Kali setup guide
 
