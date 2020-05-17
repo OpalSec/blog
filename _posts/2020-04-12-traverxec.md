@@ -17,7 +17,7 @@ classes: wide
 # Contents:
 
 A really interesting box for me that really taught me to slow down and do thorough enumeration to find a way forward. Despite being following a pretty standard HTTP-to-SSH-access exploitation flow you see in a lot of vulnhub VMs, I was challenged and found it really worthwhile doing.
-
+<!--more-->
 # Enumeration
 
 As always, I start with an nmap scan to identify listening ports and services:
