@@ -23,6 +23,9 @@
   {% endif %}
 {% endfor %}
   
+  
+<h3 class="categories__title" itemprop="categories">{{ Categories }}</h3>
+  
   <ul class="taxonomy__index">
   {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}
