@@ -11,8 +11,6 @@ tags:
 classes: wide
 ---
 
-# ATT&CK & DeTT&CT - Correlating Attack & Defence
-
 ![Banner](https://opalsec.github.io/assets/images/attack_dettect/banner.png)
 
 ## What are they?
