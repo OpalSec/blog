@@ -9,6 +9,9 @@ tags:
   - ATT&CK
   - DeTT&CT
 classes: wide
+toc: true
+toc_label: "Contents"
+toc_icon: "list"
 ---
 
 ![Banner](https://opalsec.github.io/assets/images/attack_dettect/banner.png)
