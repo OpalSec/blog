@@ -10,7 +10,7 @@ tags:
   - DeTT&CT
 classes: wide
 toc: true
-toc_label: "Contents"
+toc_label: "Can't Wait? Jump To..."
 toc_icon: "list"
 ---
 
@@ -45,7 +45,7 @@ https://github.com/mitre-attack/attack-navigator#install-and-run
 
 ### Pre-Requisites:
 
-#### **Node.js version 10+**
+#### *Node.js version 10+*
 Documentation says version 8+ will work, but that appears to be outdated:
 
 ![nodeversion](https://opalsec.github.io/assets/images/attack_dettect/node_version.png)
@@ -58,7 +58,7 @@ Then we simply run ```n stable``` to upgrade to the latest stable version:
 
 ![nupgrade](https://opalsec.github.io/assets/images/attack_dettect/nupgrade.png)
 
-#### **Angular CLI**
+#### *Angular CLI*
 
 Hopefully you didn't make the mistake I did by installing ng-common as suggested by Ubuntu when you attempt to run the ```ng serve``` command to start up the node.js server. 
 
