@@ -1,6 +1,6 @@
 ---
 title: "Analysing BumbleBee ISOs, IMGs, and LNK files"
-overview: "How to mount and analyse BumbleBee's ISO > LNK + DLL delivery mechanism."
+overview: "How to mount and analyse BumbleBee's ISO > LNK + DLL delivery mechanism, plus getting some quick wins through canned tooling and automated sandbox results."
 categories:
   - Malware Analysis
 tags:
