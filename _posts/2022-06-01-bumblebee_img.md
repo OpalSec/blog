@@ -32,7 +32,7 @@ Among these campaigns, one thing remained constant - the malware was delivered i
 
 ## Parsing the IMG & LNK files
 
-After downloading the sample, we unzip with `7za x <imgfile>` and enter the password infected at the prompt to extract the img file:
+After downloading the sample, we unzip with `7za x \<imgfile\>` and enter the password infected at the prompt to extract the img file:
 
 ![file_img](https://opalsec.github.io/assets/images/bumblebee_img_666/file_img.png)
 
