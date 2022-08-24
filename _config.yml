@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: OpalSec
+title: Opalsec
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   My Personal Blog
@@ -67,7 +67,7 @@ author:
       icon: "fab fa-fw fa-codepen"
       url: "https://www.hackthebox.eu/profile/24057"
     - label: "Substack"
-      icon: "fa-duotone fa-fw fa-paper-plane"
+      icon: "fab fa-duotone fa-fw fa-paper-plane"
       url: "https://opalsec.substack.com"
 
 footer:
@@ -79,7 +79,7 @@ footer:
       icon: "fab fa-fw fa-codepen"
       url: "https://www.hackthebox.eu/profile/24057"      
     - label: "Substack"
-      icon: "fa-duotone fa-fw fa-paper-plane"
+      icon: "fab fa-duotone fa-fw fa-paper-plane"
       url: "https://opalsec.substack.com"
 
 defaults:
