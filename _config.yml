@@ -67,7 +67,7 @@ author:
       icon: "fab fa-fw fa-codepen"
       url: "https://www.hackthebox.eu/profile/24057"
     - label: "Substack"
-      icon: "fa-duotone fa-fw fa-paper-plane"
+      icon: "fas fa-fw fa-paper-plane"
       url: "https://opalsec.substack.com"
 
 footer:
@@ -79,7 +79,7 @@ footer:
       icon: "fab fa-fw fa-codepen"
       url: "https://www.hackthebox.eu/profile/24057"      
     - label: "Substack"
-      icon: "fa-duotone fa-fw fa-paper-plane"
+      icon: "fas fa-fw fa-paper-plane"
       url: "https://opalsec.substack.com"
 
 defaults:
